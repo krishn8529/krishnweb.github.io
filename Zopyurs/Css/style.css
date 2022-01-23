@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+    .logo {
+      margin-left:-150px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .mdd {
+      display:none;
+    }
+  }
+.hov{
+    text-decoration: none;
+    color: black;
+    transition: transform .2s;
+}
+.hov:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    color:grey;
+  }
+ .nav-item a:hover{
+
+     color:rgb(238, 182, 0);
+ }
+ 
